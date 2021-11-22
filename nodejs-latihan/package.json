@@ -1,0 +1,27 @@
+{
+    "name": "nodejs-latihan",
+    "version": "1.0.0",
+    "description": "belajar nodejs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel index.js -d dist",
+        "start": "npm run build && node dist/index.js"
+    },
+    "keywords": [
+        "nodejs",
+        "latihan"
+    ],
+    "author": "Ghoza Nada Iqbal",
+    "license": "ISC",
+    "dependencies": {
+        "readline-sync": "^1.4.10"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.16.0",
+        "@babel/core": "^7.16.0",
+        "@babel/node": "^7.16.0",
+        "@babel/preset-env": "^7.16.0",
+        "nodemon": "^2.0.15"
+    }
+}
